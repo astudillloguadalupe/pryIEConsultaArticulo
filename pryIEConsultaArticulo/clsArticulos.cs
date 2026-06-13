@@ -112,9 +112,9 @@ namespace pryIEConsultaArticulo
 
                 reporte.Graphics.DrawString("Código", letraTitulo2, Brushes.Navy, 50, 140);
                 reporte.Graphics.DrawString("Descripción", letraTitulo2, Brushes.Navy, 160, 140);
-                reporte.Graphics.DrawString("Costo", letraTitulo2, Brushes.Navy, 430, 140);
-                reporte.Graphics.DrawString("Stock", letraTitulo2, Brushes.Navy, 520, 140);
-                reporte.Graphics.DrawString("Valor Stock", letraTitulo2, Brushes.Navy, 600, 140);
+                reporte.Graphics.DrawString("Costo", letraTitulo2, Brushes.Navy, 500, 140);
+                reporte.Graphics.DrawString("Stock", letraTitulo2, Brushes.Navy, 600, 140);
+                reporte.Graphics.DrawString("Valor Stock", letraTitulo2, Brushes.Navy, 680, 140);
                 reporte.Graphics.DrawLine(Pens.Navy, 50, 158, 740, 158);
 
                 conexion.ConnectionString = CadenaConexion;
