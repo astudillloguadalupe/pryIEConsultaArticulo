@@ -17,7 +17,7 @@ namespace pryIEConsultaArticulo
             InitializeComponent();
         }
 
-        clsArchivo x = new clsArchivo();
+        clsArticulos x = new clsArticulos();
 
         private void LinkInfo_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
