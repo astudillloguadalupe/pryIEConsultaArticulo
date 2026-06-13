@@ -74,7 +74,7 @@
             this.grpRubro.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.grpRubro.Name = "grpRubro";
             this.grpRubro.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpRubro.Size = new System.Drawing.Size(880, 196);
+            this.grpRubro.Size = new System.Drawing.Size(1012, 196);
             this.grpRubro.TabIndex = 1;
             this.grpRubro.TabStop = false;
             this.grpRubro.Text = "Rubro";
@@ -82,7 +82,7 @@
             // btnConsultar
             // 
             this.btnConsultar.Enabled = false;
-            this.btnConsultar.Location = new System.Drawing.Point(567, 146);
+            this.btnConsultar.Location = new System.Drawing.Point(675, 136);
             this.btnConsultar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnConsultar.Name = "btnConsultar";
             this.btnConsultar.Size = new System.Drawing.Size(176, 28);
@@ -104,11 +104,11 @@
             // grpListado
             // 
             this.grpListado.Controls.Add(this.dgvGrilla);
-            this.grpListado.Location = new System.Drawing.Point(11, 223);
+            this.grpListado.Location = new System.Drawing.Point(11, 232);
             this.grpListado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.grpListado.Name = "grpListado";
             this.grpListado.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.grpListado.Size = new System.Drawing.Size(880, 257);
+            this.grpListado.Size = new System.Drawing.Size(1012, 269);
             this.grpListado.TabIndex = 2;
             this.grpListado.TabStop = false;
             this.grpListado.Text = "Listado de Articulos";
@@ -122,11 +122,11 @@
             this.colCosto,
             this.colStock,
             this.colValorStock});
-            this.dgvGrilla.Location = new System.Drawing.Point(9, 23);
+            this.dgvGrilla.Location = new System.Drawing.Point(8, 23);
             this.dgvGrilla.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgvGrilla.Name = "dgvGrilla";
             this.dgvGrilla.RowHeadersWidth = 51;
-            this.dgvGrilla.Size = new System.Drawing.Size(863, 226);
+            this.dgvGrilla.Size = new System.Drawing.Size(995, 237);
             this.dgvGrilla.TabIndex = 0;
             // 
             // colCódigo
@@ -166,7 +166,7 @@
             // 
             // btnExportar
             // 
-            this.btnExportar.Location = new System.Drawing.Point(428, 522);
+            this.btnExportar.Location = new System.Drawing.Point(482, 553);
             this.btnExportar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnExportar.Name = "btnExportar";
             this.btnExportar.Size = new System.Drawing.Size(176, 28);
@@ -178,7 +178,7 @@
             // lblTotal
             // 
             this.lblTotal.AutoSize = true;
-            this.lblTotal.Location = new System.Drawing.Point(20, 539);
+            this.lblTotal.Location = new System.Drawing.Point(20, 570);
             this.lblTotal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTotal.Name = "lblTotal";
             this.lblTotal.Size = new System.Drawing.Size(110, 16);
@@ -188,7 +188,7 @@
             // lblCantidad
             // 
             this.lblCantidad.AutoSize = true;
-            this.lblCantidad.Location = new System.Drawing.Point(20, 498);
+            this.lblCantidad.Location = new System.Drawing.Point(20, 529);
             this.lblCantidad.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCantidad.Name = "lblCantidad";
             this.lblCantidad.Size = new System.Drawing.Size(134, 16);
@@ -198,25 +198,25 @@
             // lblTotalRTA
             // 
             this.lblTotalRTA.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblTotalRTA.Location = new System.Drawing.Point(212, 527);
+            this.lblTotalRTA.Location = new System.Drawing.Point(212, 558);
             this.lblTotalRTA.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTotalRTA.Name = "lblTotalRTA";
-            this.lblTotalRTA.Size = new System.Drawing.Size(133, 28);
+            this.lblTotalRTA.Size = new System.Drawing.Size(184, 28);
             this.lblTotalRTA.TabIndex = 0;
             // 
             // lblCantRTA
             // 
             this.lblCantRTA.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblCantRTA.Location = new System.Drawing.Point(212, 486);
+            this.lblCantRTA.Location = new System.Drawing.Point(212, 517);
             this.lblCantRTA.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCantRTA.Name = "lblCantRTA";
-            this.lblCantRTA.Size = new System.Drawing.Size(133, 28);
+            this.lblCantRTA.Size = new System.Drawing.Size(184, 28);
             this.lblCantRTA.TabIndex = 0;
             // 
             // LinkInfo
             // 
             this.LinkInfo.AutoSize = true;
-            this.LinkInfo.Location = new System.Drawing.Point(720, 11);
+            this.LinkInfo.Location = new System.Drawing.Point(830, 10);
             this.LinkInfo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LinkInfo.Name = "LinkInfo";
             this.LinkInfo.Size = new System.Drawing.Size(146, 16);
@@ -227,7 +227,7 @@
             // 
             // btnImprimir
             // 
-            this.btnImprimir.Location = new System.Drawing.Point(611, 522);
+            this.btnImprimir.Location = new System.Drawing.Point(734, 553);
             this.btnImprimir.Name = "btnImprimir";
             this.btnImprimir.Size = new System.Drawing.Size(176, 28);
             this.btnImprimir.TabIndex = 4;
@@ -247,7 +247,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(901, 566);
+            this.ClientSize = new System.Drawing.Size(1036, 614);
             this.Controls.Add(this.btnImprimir);
             this.Controls.Add(this.grpListado);
             this.Controls.Add(this.btnExportar);
