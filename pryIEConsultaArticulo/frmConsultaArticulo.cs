@@ -47,22 +47,48 @@ namespace pryIEConsultaArticulo
             x.CargarRubros(cmbRubro);
             btnConsultar.Enabled = false;
             btnExportar.Enabled = false;
+            btnImprimir.Enabled = false;
         }
 
         private void btnConsultar_Click(object sender, EventArgs e)
         {
             x.ListarPorRubro(dgvGrilla, cmbRubro.Text);
 
-            lblCantRTA.Text = x.CantidadPorRubro(cmbRubro.Text).ToString();
-            lblTotalRTA.Text = x.TotalValorStock(cmbRubro.Text).ToString("C");
+            lblCantRTA.Text = x.CantidadArticulos.ToString();
+            lblTotalRTA.Text = x.TotalValorStock.ToString("C");
 
             btnExportar.Enabled = true;
+            btnImprimir.Enabled = true;
         }
 
         private void btnExportar_Click(object sender, EventArgs e)
         {
-            x.ExportarPorRubro(cmbRubro.Text);
-            MessageBox.Show("Archivo exportado correctamente");
+            dlgGuardar.FileName = "ReporteArticulos_" + cmbRubro.Text + ".csv";
+            dlgGuardar.Filter = "Archivos CSV (*.csv)|*.csv|Todos los archivos (*.*)|*.*";
+            dlgGuardar.Title = "Guardar reporte de artículos";
+
+            if (dlgGuardar.ShowDialog() == DialogResult.OK)
+            {
+                x.ExportarPorRubro(cmbRubro.Text, dlgGuardar.FileName);
+                MessageBox.Show("Archivo exportado correctamente", "Exportación");
+            }
+        }
+
+        private void btnImprimir_Click(object sender, EventArgs e)
+        {
+            prtVentana.Document = prtDocumento;
+
+            if (prtVentana.ShowDialog() == DialogResult.OK)
+            {
+                prtDocumento.PrinterSettings = prtVentana.PrinterSettings;
+                prtDocumento.Print();
+                MessageBox.Show("Reporte impreso correctamente", "Impresión");
+            }
+        }
+
+        private void prtDocumento_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
+        {
+            x.Imprimir(e);
         }
     }
 }
