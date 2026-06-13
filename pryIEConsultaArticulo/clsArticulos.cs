@@ -112,9 +112,9 @@ namespace pryIEConsultaArticulo
 
                 reporte.Graphics.DrawString("Código", letraTitulo2, Brushes.Navy, 50, 140);
                 reporte.Graphics.DrawString("Descripción", letraTitulo2, Brushes.Navy, 160, 140);
-                reporte.Graphics.DrawString("Costo", letraTitulo2, Brushes.Navy, 500, 140);
-                reporte.Graphics.DrawString("Stock", letraTitulo2, Brushes.Navy, 600, 140);
-                reporte.Graphics.DrawString("Valor Stock", letraTitulo2, Brushes.Navy, 680, 140);
+                reporte.Graphics.DrawString("Costo", letraTitulo2, Brushes.Navy, 560, 140);
+                reporte.Graphics.DrawString("Stock", letraTitulo2, Brushes.Navy, 660, 140);
+                reporte.Graphics.DrawString("Valor Stock", letraTitulo2, Brushes.Navy, 750, 140);
                 reporte.Graphics.DrawLine(Pens.Navy, 50, 158, 740, 158);
 
                 conexion.ConnectionString = CadenaConexion;
@@ -137,9 +137,9 @@ namespace pryIEConsultaArticulo
 
                         reporte.Graphics.DrawString(fila["Codigo"].ToString(), letraTexto, Brushes.Black, 50, f);
                         reporte.Graphics.DrawString(fila["Descripcion"].ToString(), letraTexto, Brushes.Black, 160, f);
-                        reporte.Graphics.DrawString(costo.ToString("C"), letraTexto, Brushes.Black, 430, f);
-                        reporte.Graphics.DrawString(stock.ToString(), letraTexto, Brushes.Black, 520, f);
-                        reporte.Graphics.DrawString(valorStock.ToString("C"), letraTexto, Brushes.Black, 600, f);
+                        reporte.Graphics.DrawString(costo.ToString("C"), letraTexto, Brushes.Black, 560, f);
+                        reporte.Graphics.DrawString(stock.ToString(), letraTexto, Brushes.Black, 660, f);
+                        reporte.Graphics.DrawString(valorStock.ToString("C"), letraTexto, Brushes.Black, 740, f);
                         f += 18;
                     }
                 }
