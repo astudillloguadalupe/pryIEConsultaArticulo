@@ -59,7 +59,7 @@
             this.cmbRubro.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbRubro.FormattingEnabled = true;
             this.cmbRubro.Location = new System.Drawing.Point(233, 73);
-            this.cmbRubro.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmbRubro.Margin = new System.Windows.Forms.Padding(4);
             this.cmbRubro.Name = "cmbRubro";
             this.cmbRubro.Size = new System.Drawing.Size(249, 24);
             this.cmbRubro.TabIndex = 1;
@@ -71,9 +71,9 @@
             this.grpRubro.Controls.Add(this.lblRubro);
             this.grpRubro.Controls.Add(this.cmbRubro);
             this.grpRubro.Location = new System.Drawing.Point(11, 30);
-            this.grpRubro.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpRubro.Margin = new System.Windows.Forms.Padding(4);
             this.grpRubro.Name = "grpRubro";
-            this.grpRubro.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpRubro.Padding = new System.Windows.Forms.Padding(4);
             this.grpRubro.Size = new System.Drawing.Size(1012, 196);
             this.grpRubro.TabIndex = 1;
             this.grpRubro.TabStop = false;
@@ -83,7 +83,7 @@
             // 
             this.btnConsultar.Enabled = false;
             this.btnConsultar.Location = new System.Drawing.Point(675, 136);
-            this.btnConsultar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnConsultar.Margin = new System.Windows.Forms.Padding(4);
             this.btnConsultar.Name = "btnConsultar";
             this.btnConsultar.Size = new System.Drawing.Size(176, 28);
             this.btnConsultar.TabIndex = 2;
@@ -105,9 +105,9 @@
             // 
             this.grpListado.Controls.Add(this.dgvGrilla);
             this.grpListado.Location = new System.Drawing.Point(11, 232);
-            this.grpListado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpListado.Margin = new System.Windows.Forms.Padding(4);
             this.grpListado.Name = "grpListado";
-            this.grpListado.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpListado.Padding = new System.Windows.Forms.Padding(4);
             this.grpListado.Size = new System.Drawing.Size(1012, 269);
             this.grpListado.TabIndex = 2;
             this.grpListado.TabStop = false;
@@ -123,7 +123,7 @@
             this.colStock,
             this.colValorStock});
             this.dgvGrilla.Location = new System.Drawing.Point(8, 23);
-            this.dgvGrilla.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvGrilla.Margin = new System.Windows.Forms.Padding(4);
             this.dgvGrilla.Name = "dgvGrilla";
             this.dgvGrilla.RowHeadersWidth = 51;
             this.dgvGrilla.Size = new System.Drawing.Size(995, 237);
@@ -167,7 +167,7 @@
             // btnExportar
             // 
             this.btnExportar.Location = new System.Drawing.Point(482, 553);
-            this.btnExportar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnExportar.Margin = new System.Windows.Forms.Padding(4);
             this.btnExportar.Name = "btnExportar";
             this.btnExportar.Size = new System.Drawing.Size(176, 28);
             this.btnExportar.TabIndex = 3;
@@ -198,7 +198,7 @@
             // lblTotalRTA
             // 
             this.lblTotalRTA.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblTotalRTA.Location = new System.Drawing.Point(212, 558);
+            this.lblTotalRTA.Location = new System.Drawing.Point(212, 569);
             this.lblTotalRTA.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTotalRTA.Name = "lblTotalRTA";
             this.lblTotalRTA.Size = new System.Drawing.Size(184, 28);
@@ -258,7 +258,7 @@
             this.Controls.Add(this.grpRubro);
             this.Controls.Add(this.LinkInfo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmConsultaArticulo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Consulta de Articulos por Rubro";
