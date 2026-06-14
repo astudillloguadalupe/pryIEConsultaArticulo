@@ -23,7 +23,7 @@ namespace pryIEConsultaArticulo
         {
             MessageBox.Show("Analista de Sistemas\n" +
                  "Laboratorio de Programación 2\n" +
-                  "1º Instancia Evaluativa\n" +
+                  "Segunda Instancia Evaluativa\n" +
                     "DNI: 46767530\n" +
                     "Guadalupe Astudillo Pini",
                     "Información del Alumno");
