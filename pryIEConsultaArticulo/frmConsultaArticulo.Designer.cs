@@ -171,7 +171,7 @@
             this.btnExportar.Name = "btnExportar";
             this.btnExportar.Size = new System.Drawing.Size(176, 28);
             this.btnExportar.TabIndex = 3;
-            this.btnExportar.Text = "Exportar a CSV";
+            this.btnExportar.Text = "Exportar Reporte";
             this.btnExportar.UseVisualStyleBackColor = true;
             this.btnExportar.Click += new System.EventHandler(this.btnExportar_Click);
             // 
